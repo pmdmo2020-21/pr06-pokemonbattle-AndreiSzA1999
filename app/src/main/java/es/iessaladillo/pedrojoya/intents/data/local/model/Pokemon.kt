@@ -6,5 +6,4 @@ class Pokemon(
     var nombre: String,
     var id: Long,
     var imagen: Int,
-
 )

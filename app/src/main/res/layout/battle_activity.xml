@@ -39,7 +39,7 @@
             app:layout_constraintGuide_percent="0.5" />
 
         <ImageView
-            android:id="@+id/imageView4"
+            android:id="@+id/imgPokemon1"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -81,7 +81,7 @@
             app:layout_constraintGuide_percent="0.5" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/imgPokemon2"
             android:layout_width="0dp"
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"

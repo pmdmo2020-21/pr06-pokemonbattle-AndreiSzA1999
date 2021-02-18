@@ -10,13 +10,9 @@ object Database : DataSource {
         var pokemon : Pokemon? = null
         var lista = getAllPokemons()
         pokemon = lista[ThreadLocalRandom.current().nextInt(0,6)]
-
-
         return pokemon
     }
-
     override fun getAllPokemons(): List<Pokemon> {
-
         var pokemons = listOf<Pokemon>(
             Pokemon(1, "Bulbasur", 1, R.drawable.bulbasur),
             Pokemon(2, "Giratina", 2, R.drawable.giratina),
@@ -27,9 +23,7 @@ object Database : DataSource {
             )
         return pokemons
     }
-
     override fun getPokemonById(id: Long): Pokemon? {
-
         var lista = getAllPokemons()
         var pokemon : Pokemon? = null
 
@@ -40,10 +34,6 @@ object Database : DataSource {
         }
         return pokemon
         }
-
-
-
-
     }
 
 

@@ -69,7 +69,7 @@
             app:layout_constraintGuide_percent="0.33" />
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/imgBulbasur"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="24dp"
@@ -136,7 +136,7 @@
             app:layout_constraintStart_toStartOf="@+id/guideline9" />
 
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/imggiratina"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="24dp"
@@ -149,7 +149,7 @@
             app:srcCompat="@drawable/giratina" />
 
         <ImageView
-            android:id="@+id/imageView7"
+            android:id="@+id/imgcubone"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="24dp"
@@ -162,7 +162,7 @@
             app:srcCompat="@drawable/cubone" />
 
         <ImageView
-            android:id="@+id/imageView8"
+            android:id="@+id/imggyarados"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="24dp"
@@ -175,7 +175,7 @@
             app:srcCompat="@drawable/gyarados" />
 
         <ImageView
-            android:id="@+id/imageView9"
+            android:id="@+id/imgfreebas"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="24dp"
@@ -188,7 +188,7 @@
             app:srcCompat="@drawable/feebas" />
 
         <ImageView
-            android:id="@+id/imageView10"
+            android:id="@+id/imgpikachu"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_marginStart="24dp"
